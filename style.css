@@ -48,3 +48,13 @@ th, td {
 tr td:nth-child(3){
     padding: 3px 35px;
 }
+
+@media screen and (max-width: 900px){
+    th, td {
+        border: .2px solid #f0f0f0;
+        color: #f0f0f0;
+        text-align: center;
+        padding: 3px 5px;
+        font-size: 12px;
+      }
+}
