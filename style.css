@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url("bg.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.leaderboard{
+    background-color: rgba(0, 0, 0, .8);
+    border: 1px solid #f0f0f0;
+    display: flex;
+    flex-direction: column;
+}
+.leaderboard h1{
+    color: #f0f0f0;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+.leaderboard .leaderboard-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+table{
+    border-collapse: collapse;
+}
+th, td {
+    border: .2px solid #f0f0f0;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 3px 15px;
+    font-size: 16px;
+  }
+tr td:nth-child(3){
+    padding: 3px 35px;
+}
